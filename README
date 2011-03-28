@@ -1,1 +1,10 @@
+
 My own sql script for Oracle DBA
+create_awr_baseline2.sql     create a static AWR baseline with snap id
+create_awr_baseline.sql     create a static AWR baseline
+eph.sql     display explain plan history and the PLAN_HASH_VALUE of
+ind9_struct_stats.sql     brief summary on the structure and statistics of an index
+mount_files_space.sql     display filesystem space usage according to the type of
+oem_stop_job.sql     Stop oem job even if status is running
+report_awr_baseline.sql     generate AWR report between two baselines id
+ses_pinning_aq.sql     identify user sessions pinning Advanced Queue objects
