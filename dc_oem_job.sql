@@ -1,3 +1,14 @@
+--------------------------------------------------------------------------------                                                                              
+--                                                                                                                                                            
+-- File name:   dc_oem_job.sql
+-- Purpose:     display a daily check of OEM job failures 
+--                                                                                                                                                            
+-- Author:      Jeremy Baumont
+-- Copyright:   (c) http://www.jeremy.baumont.org
+--                                                                                                                                                            
+-- Usage:       @dc_oem_job 
+--------------------------------------------------------------------------------
+
 set lines 330
 col job_name format a55
 col "EXECUTION_STATUS" format a20
