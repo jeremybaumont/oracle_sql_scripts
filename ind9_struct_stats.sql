@@ -4,10 +4,10 @@
 -- Purpose:     brief summary on the structure and statistics of an index
 --                                                                                                                                                                                    
 -- Author:      Jeremy Baumont
--- Copyright:   (c) http://www.jeremy.baumont.org
+-- Copyright:   GPL v3
 --                                                                                                                                                                                    
 -- Usage:       @ind9_struct_stats <index_name>
---              @ep CDR_NTX_START_TIMESTAMP_I
+--              @ep MY_INDEX_I
 --------------------------------------------------------------------------------
 
 set lines 220

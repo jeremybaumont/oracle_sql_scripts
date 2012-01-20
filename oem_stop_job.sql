@@ -4,7 +4,7 @@
 -- Purpose:     Stop oem job even if status is running
 --                                                                                                                                                                                    
 -- Author:      Jeremy Baumont
--- Copyright:   (c) http://www.jeremy.baumont.org
+-- Copyright:   GPL v3
 --                                                                                                                                                                                    
 -- Usage:       @oem_stop_job <owner> <oem_job_name>
 --              @oem_stop_job TEST TEST_RMANBACKUP_LOGDISKBACKUP

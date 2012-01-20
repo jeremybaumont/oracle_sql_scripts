@@ -4,7 +4,7 @@
 -- Purpose:     generate AWR report between two baselines id
 --                                                                                                                                                                                    
 -- Author:      Jeremy Baumont                                                                                                                                                        
--- Copyright:   (c) http://www.jeremy.baumont.org                                                                                                                                     
+-- Copyright:   GPL v3                                                                                                                                     
 --                                                                                                                                                                                    
 -- Usage:       @report_awr_baseline
 --                                                                                                                                                                                    

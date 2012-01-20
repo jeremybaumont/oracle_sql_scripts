@@ -10,7 +10,7 @@
 --              http://download.oracle.com/docs/cd/B31080_01/doc/install.102/b28224/diagnose_06.htm              
 --
 -- Author:      Jeremy Baumont
--- Copyright:   (c) http://www.jeremy.baumont.org
+-- Copyright:   GPL v3
 --                                                                                  
 -- Usage:       @ses_pinning_aq.sql>
 --------------------------------------------------------------------------------

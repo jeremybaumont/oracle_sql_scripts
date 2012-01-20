@@ -4,7 +4,7 @@
 -- Purpose:     create a static AWR baseline
 --                                                                                                                                                                                    
 -- Author:      Jeremy Baumont                                                                                                                                                        
--- Copyright:   (c) http://www.jeremy.baumont.org                                                                                                                                     
+-- Copyright:   GPL v3                                                                                                                                    
 --                                                                                                                                                                                    
 -- Usage:       @create_awr_baseline
 --                                                                                                                                                                                    

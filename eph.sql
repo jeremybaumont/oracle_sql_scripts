@@ -5,7 +5,7 @@
 --              each change of the exec plan
 --                                                                                                                                                                                    
 -- Author:      Jeremy Baumont
--- Copyright:   (c) http://www.jeremy.baumont.org
+-- Copyright:   GPL v3
 --                                                                                                                                                                                    
 -- Usage:       @eph <sql_id>
 --              @eph 881tdtvd4gh68                                                                                                                                                                     

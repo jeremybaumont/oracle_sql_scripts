@@ -4,7 +4,7 @@
 -- Purpose:     create a static AWR baseline with snap id
 --                                                                                                                                                                                    
 -- Author:      Jeremy Baumont                                                                                                                                                        
--- Copyright:   (c) http://www.jeremy.baumont.org                                                                                                                                     
+-- Copyright:   GPL v3                                                                                                                                     
 --                                                                                                                                                                                    
 -- Usage:       @create_awr_baseline
 --                                                                                                                                                                                    
