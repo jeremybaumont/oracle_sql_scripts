@@ -1,3 +1,4 @@
+# Oracle SQL Scripts
 * aq_info.sql:      display information advanced queueing 
 * awr_bas.sql:      generate AWR report between two baselines id
 * awr_stats_sqlid.sql:      display historical awr stats for an sqlid
