@@ -10,9 +10,9 @@
 --              http://download.oracle.com/docs/cd/B31080_01/doc/install.102/b28224/diagnose_06.htm              
 --
 -- Author:      Jeremy Baumont
--- Copyright:   GPL v3
+-- Copyright:   Apache License v2.0
 --                                                                                  
--- Usage:       @ses_pinning_aq.sql>
+-- Usage:       @ses_pinning_aq.sql
 --------------------------------------------------------------------------------
 column s.sid format a5
 column s.serial# format a8

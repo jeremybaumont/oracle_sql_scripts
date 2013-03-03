@@ -1,16 +1,10 @@
---------------------------------------------------------------------------------                                                                                                      
---                                                                                                                                                                                    
 -- File name:   mount_files_space.sql
--- Purpose:     display filesystem space usage according to the type of
---              files (control files, datafiles, redo logs...) and sum
---              space usage of the database files per mount points OFA
---                                                                                                                                                                                    
+-- Purpose:     display filesystem space usage according to mount points 
 -- Author:      Jeremy Baumont
--- Copyright:   GPL v3
---                                                                                                                                                                                    
+-- Copyright:   Apache License v2.0
 -- Usage:       @mount_files_space.sql
---                                                                                                                                                                                    
 --------------------------------------------------------------------------------
+
 col "Datafiles Size Mb" for 999G999G999  
 col "Redo Log Size Mb" for 999999999  
 col "Control File Size Mb" for 999999999  

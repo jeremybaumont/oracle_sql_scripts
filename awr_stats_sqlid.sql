@@ -2,7 +2,7 @@
 -- Purpose:     display historical awr stats for an sqlid
 --                                                                                                                
 -- Author:      Jeremy Baumont
--- Copyright:   GPL v3
+-- Copyright:   Apache License v2.0 
 --                                                                                                                
 -- Usage:       @awr_stats_sqlid  <SQLID>
 --------------------------------------------------------------------------------

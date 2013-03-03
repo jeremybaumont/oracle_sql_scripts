@@ -1,11 +1,7 @@
---------------------------------------------------------------------------------                                                                                                      
---                                                                                                                                                                                    
 -- File name:   objects_keep_pool.sql
 -- Purpose:     display objects in keep pool in the buffer cache 
---                                                                                                                                                                                    
 -- Author:      Jeremy Baumont
--- Copyright:   GPL v3
---                                                                                                                                                                                    
+-- Copyright:   Apache License v2.0
 -- Usage:       @objects_keep_pool.sql
 --------------------------------------------------------------------------------
 

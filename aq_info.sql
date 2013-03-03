@@ -1,9 +1,7 @@
 -- File name:   aq_info.sql
--- Purpose:     display information on the AQs and the AQ tables of one
---              user/owner
---                                                                                                                
+-- Purpose:     display information advanced queueing 
 -- Author:      Jeremy Baumont
--- Copyright:   GPL v3
+-- Copyright:   Apache License, Version 2.0 
 --                                                                                                                
 -- Usage:       @aq_info  <OWNER>
 --------------------------------------------------------------------------------
@@ -12,7 +10,6 @@
 
 
 prompt " Advanced Queues "
-prompt "---------------------------------------------------"
 
 select 
     name, max_retries, retry_delay, retention, queue_table,
@@ -24,7 +21,6 @@ where
 
 
 prompt " Advanced Queues Tables"
-prompt "---------------------------------------------------"
 
 select 
     queue_table,type,object_type,sort_order 
@@ -35,7 +31,6 @@ where
 
 
 prompt " Schedules "
-prompt "---------------------------------------------------"
 set wrap off
 col schema form a10
 col qname form a15
@@ -51,7 +46,6 @@ queue_to_queue
 FROM dba_queue_subscribers;
 
 prompt " OS PIDs Corresponding to Job Queue Processes"
-prompt "---------------------------------------------------"
 select p.SPID, p.PROGRAM 
 from V$PROCESS p, DBA_JOBS_RUNNING jr, V$SESSION s, DBA_JOBS j 
 where s.SID=jr.SID 

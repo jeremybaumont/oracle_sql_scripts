@@ -1,15 +1,11 @@
---------------------------------------------------------------------------------                                                                                                      
---                                                                                                                                                                                    
 -- File name:   oem_stop_job.sql
 -- Purpose:     Stop oem job even if status is running
---                                                                                                                                                                                    
 -- Author:      Jeremy Baumont
--- Copyright:   GPL v3
---                                                                                                                                                                                    
+-- Copyright:   Apache License v2.0
 -- Usage:       @oem_stop_job <owner> <oem_job_name>
 --              @oem_stop_job TEST TEST_RMANBACKUP_LOGDISKBACKUP
---                                                                                                                                                                                    
 --------------------------------------------------------------------------------
+
 set serveroutput on
 set feedb off
 SET verify OFF 

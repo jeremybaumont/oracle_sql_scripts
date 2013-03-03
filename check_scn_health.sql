@@ -1,11 +1,13 @@
 -- File name:   check_scn_health.sql
--- Purpose:     display information about the scn health over the scn
+-- Purpose:     display information about the scn health 
+--
+--              display information about the scn health over the scn
 --              headroom being the difference between current scn and
 --              scn soft limit (number of seconds between now and 
 --              1988/01/01 00:00:00 
 --
 -- Author:      Jeremy Baumont
--- Copyright:   GPL v3
+-- Copyright:   Apache License v2.0
 --
 -- Usage:       @check_scn_health  
 --------------------------------------------------------------------------------

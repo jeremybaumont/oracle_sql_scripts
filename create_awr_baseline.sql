@@ -1,13 +1,9 @@
---------------------------------------------------------------------------------                                                                                                      
---                                                                                                                                                                                    
--- File name:   create_awr_baseline.sql                                                                                                                                                      
+--                                     
+-- File name:   create_awr_baseline.sql 
 -- Purpose:     create a static AWR baseline
---                                                                                                                                                                                    
--- Author:      Jeremy Baumont                                                                                                                                                        
--- Copyright:   GPL v3                                                                                                                                    
---                                                                                                                                                                                    
+-- Author:      Jeremy Baumont
+-- Copyright:   Apache License v2.0       
 -- Usage:       @create_awr_baseline
---                                                                                                                                                                                    
 -- Parameters:  start_time: Start time for the baseline
 --              end_time: End time for the baseline
 --              baseline_name: Name of baseline
