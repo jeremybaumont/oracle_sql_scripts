@@ -1,3 +1,12 @@
+-- File name:   temp_his.sql
+-- Purpose:     display history temp usage via ASH
+-- Author:      Jeremy Baumont
+-- Copyright:   Apache License, Version 2.0
+--
+-- Usage:       @temp_his
+--------------------------------------------------------------------------------
+
+
 -- SQL to find TOP lit of sessions ( available from ACTIVE_SESS_HISTORY) that used more than 100MB:
 
 prompt "Enter start and end times in format YYYY-MON-DD HH24:MI:"
