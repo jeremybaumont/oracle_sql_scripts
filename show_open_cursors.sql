@@ -28,6 +28,8 @@ order by 1 desc;
 col sid for 99999999
 col  cursor_type for a40
 
+prompt open cursors type and numbers per SID
+prompt
 select * from
 (
 select sid, cursor_type, count(*) as num_open_cursors from v$open_cursor 
@@ -39,7 +41,8 @@ where  rownum <=20
 
 
 col sql_text for a80
-
+prompt Open cursors numbers per sql text per cursor type 
+prompt
 select * from
 (select  sql_text, cursor_type,  count(*) as num_open_cursors from
 v$open_cursor 
@@ -48,9 +51,23 @@ order by  num_open_cursors desc
 ) where rownum <= 10
 /
 
+prompt Open cursors numbers per sql id per cursor type
+prompt
 select * from
 (select  sql_id, cursor_type,  count(*) as num_open_cursors from
 v$open_cursor 
+group by  sql_id, cursor_type 
+order by  num_open_cursors desc
+) where rownum <= 10
+/
+
+
+prompt Open cursors numbers per sql id per cursor type in the last hour
+prompt
+select * from
+(select  sql_id, cursor_type,  count(*) as num_open_cursors from
+v$open_cursor 
+where LAST_SQL_ACTIVE_TIME > sysdate -1/24
 group by  sql_id, cursor_type 
 order by  num_open_cursors desc
 ) where rownum <= 10
